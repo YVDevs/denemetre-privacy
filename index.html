@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Denemetre — Gizlilik Politikası</title>
+</head>
+<body>
+
+<h1>Denemetre — Gizlilik Politikası</h1>
+<p>Son güncelleme: 23 Temmuz 2026</p>
+
+<p>
+  Bu politika, <strong>Denemetre</strong> (paket adı: <code>com.denemetre.app</code>)
+  uygulamasının hangi verileri işlediğini, bu verilerin neden işlendiğini ve
+  üzerinde ne gibi haklarınız olduğunu açıklar.
+</p>
+
+<p>
+  <strong>Özet:</strong> Deneme sonuçlarınız, notlarınız ve fotoğraflarınız
+  <strong>yalnızca kendi cihazınızda</strong> saklanır. Bunları bir sunucuya
+  yüklemiyoruz, göremiyoruz ve kimseyle paylaşmıyoruz. Cihazınızdan dışarı
+  çıkan tek şeyler, aşağıda tek tek açıklanan sınırlı durumlardır.
+  <strong>Reklam kimliğiniz toplanmaz.</strong>
+</p>
+
+<h2>1. Cihazınızda kalan veriler</h2>
+
+<p>
+  Uygulamanın temel işlevi tamamen çevrimdışıdır. Aşağıdakiler yalnızca
+  telefonunuzun kendi depolama alanında tutulur ve tarafımıza
+  <strong>hiçbir şekilde iletilmez</strong>:
+</p>
+
+<ul>
+  <li>Kaydettiğiniz deneme sınavları, cevaplarınız, net ve puan hesaplamaları</li>
+  <li>Oluşturduğunuz özel sınav şablonları ve optik okuma şablonları</li>
+  <li>Kaydettiğiniz soru fotoğrafları ve notlarınız</li>
+  <li>Adınız, hedef alanınız ve hedef sıralamanız</li>
+  <li>Girdiyseniz Google Gemini API anahtarınız</li>
+</ul>
+
+<p>
+  Uygulamayı sildiğinizde bu verilerin tamamı cihazınızdan silinir.
+  Yedek almadıysanız geri getirilemez.
+</p>
+
+<h3>Optik okuma (kamera)</h3>
+<p>
+  Optik cevap kâğıdı okuma özelliği kameranızı kullanır. Çekilen fotoğraf
+  <strong>cihazınızda işlenir</strong>; hiçbir sunucuya veya harici bir
+  görüntü tanıma servisine gönderilmez.
+</p>
+
+<h2>2. Geri bildirim gönderdiğinizde</h2>
+
+<p>
+  Uygulama içinden geri bildirim göndermek <strong>tamamen isteğe bağlıdır</strong>.
+  Göndermezseniz bu bölümdeki hiçbir veri toplanmaz. Gönderdiğinizde şunlar
+  Google Firebase (Firestore) üzerinde saklanır:
+</p>
+
+<table border="1">
+  <tr><th>Veri</th><th>Açıklama</th></tr>
+  <tr><td>Mesaj başlığı ve metni</td><td>Yazdığınız içerik</td></tr>
+  <tr><td>Ad</td><td>Yalnızca siz yazarsanız. Boş bırakırsanız anonim olarak gönderilir.</td></tr>
+  <tr><td>Cihaz markası ve modeli</td><td>Örn. Samsung, SM-A525F</td></tr>
+  <tr><td>İşletim sistemi sürümü</td><td>Örn. Android 13</td></tr>
+  <tr><td>Ekran ölçüsü</td><td>Örn. 1080x2400</td></tr>
+  <tr><td>Uygulama sürümü</td><td>Örn. 1.0.0</td></tr>
+  <tr><td>Anonim oturum kimliği</td><td>Yalnızca kendi gönderilerinizi görüp düzenleyebilmeniz için üretilen rastgele bir kimlik. Kişisel hesabınızla bağlantılı değildir.</td></tr>
+</table>
+
+<p>
+  Teknik bilgiler, bildirdiğiniz sorunu yeniden üretebilmek içindir; sizi
+  kişisel olarak tanımlamaz.
+</p>
+
+<p>
+  <strong>Silme hakkınız:</strong> Gönderdiğiniz geri bildirimi uygulama
+  içinden istediğiniz zaman düzenleyebilir veya silebilirsiniz.
+  <strong>Sil dediğinizde veri anında ve kalıcı olarak silinir</strong>;
+  arşiv, yedek veya log kopyası tutulmaz.
+</p>
+
+<h2>3. Hata ve kullanım verileri</h2>
+
+<h3>Firebase Crashlytics — çökme raporları</h3>
+<p>
+  Uygulama beklenmedik şekilde kapandığında hatanın teknik ayrıntıları
+  (hata kaydı, cihaz modeli, işletim sistemi ve uygulama sürümü) otomatik
+  olarak gönderilir. Bu raporlar hataları bulup düzeltmek içindir ve
+  kişisel içeriğinizi (deneme verileri, notlar, fotoğraflar) içermez.
+</p>
+
+<h3>Firebase Analytics — kullanım ölçümü</h3>
+<p>
+  Hangi ekranların ne sıklıkla açıldığı ve belirli işlemlerin
+  (deneme ekleme, optik tarama, yedekleme gibi) kaç kez yapıldığı sayılır.
+  Yalnızca <strong>sayılar</strong> toplanır; yazdığınız hiçbir metin
+  (deneme adı, not başlığı, ders adı) gönderilmez.
+</p>
+<p>
+  Ayrıca kaç deneme ve kaç fotoğraf kaydettiğiniz kabaca aralık olarak
+  (örneğin "6–20 arası") bildirilir. Bu, uygulamanın performansını
+  gerçek kullanım ölçeğine göre iyileştirmek içindir; kesin sayı gönderilmez.
+</p>
+
+<p>
+  <strong>Reklam kimliği toplanmaz.</strong> İlgili Google Analytics izni tamamen kaldırılmıştır; size reklam gösterilmez, profilleme yapılmaz ve verileriniz reklam amacıyla kullanılmaz.
+</p>
+
+<h2>4. Yapay zekâ özelliği (isteğe bağlı)</h2>
+
+<p>
+  Uygulamada, kendi <strong>Google Gemini API anahtarınızı</strong> girerek
+  etkinleştirebileceğiniz bir yapay zekâ analiz özelliği bulunur.
+  Anahtar girmezseniz bu özellik çalışmaz ve bu bölümdeki hiçbir veri
+  aktarımı gerçekleşmez.
+</p>
+
+<p>Özelliği kullandığınızda aşağıdakiler doğrudan <strong>Google'ın Gemini API'sine</strong> gönderilir:</p>
+<ul>
+  <li>Deneme sonuçlarınızın özeti (ders bazlı doğru/yanlış/net bilgileri)</li>
+  <li>Girdiyseniz adınız, hedef alanınız ve hedef sıralamanız</li>
+  <li>Yapay zekâ koçuna yazdığınız mesajlar</li>
+</ul>
+
+<p>
+  Bu veriler <strong>bizim sunucularımızdan geçmez</strong>; cihazınızdan
+  doğrudan Google'a gider. Verilerin Google tarafından nasıl işlendiği
+  <a href="https://ai.google.dev/gemini-api/terms" target="_blank" rel="noopener">Gemini API Şartları</a>
+  ve
+  <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Gizlilik Politikası</a>
+  kapsamındadır.
+</p>
+
+<p>
+  API anahtarınız yalnızca cihazınızda saklanır. Bizim tarafımızdan
+  görülemez veya kullanılamaz.
+</p>
+
+<h2>5. Yedekleme</h2>
+
+<p>
+  Uygulama, tüm verilerinizi tek bir dosyaya aktarma imkânı sunar. Bu dosya
+  <strong>sizin seçtiğiniz konuma kaydedilir</strong> (cihaz belleği, Google
+  Drive, e-posta vb.). Dosya bize gönderilmez ve içeriğine erişemeyiz.
+</p>
+
+<p>
+  <strong>Uyarı:</strong> Yedek dosyası, girdiyseniz Gemini API anahtarınızı
+  da düz metin olarak içerir. Bu nedenle yedek dosyanızı başkalarıyla
+  paylaşırken dikkatli olun.
+</p>
+
+<h2>6. Verilerin paylaşımı</h2>
+
+<p>
+  Verilerinizi <strong>satmıyoruz</strong>, reklam ağlarıyla veya veri
+  simsarlarıyla paylaşmıyoruz. Veriler yalnızca aşağıdaki hizmet
+  sağlayıcılar aracılığıyla işlenir:
+</p>
+
+<ul>
+  <li><strong>Google Firebase</strong> (Firestore, Crashlytics, Analytics) — geri bildirim, hata ve kullanım verileri</li>
+  <li><strong>Google Gemini API</strong> — yalnızca yapay zekâ özelliğini kendi anahtarınızla kullanırsanız</li>
+</ul>
+
+<h2>7. Çocukların gizliliği</h2>
+
+<p>
+  Uygulama özel olarak çocuklara yönelik değildir ve 13 yaş altı
+  kullanıcılardan bilerek veri toplamaz.
+</p>
+
+<h2>8. Haklarınız</h2>
+
+<ul>
+  <li><strong>Silme:</strong> Geri bildirimlerinizi uygulama içinden kalıcı olarak silebilirsiniz. Uygulamayı kaldırdığınızda cihazdaki tüm verileriniz silinir.</li>
+  <li><strong>Erişim:</strong> Verileriniz zaten cihazınızda; yedekleme özelliğiyle tamamını dışa aktarabilirsiniz.</li>
+  <li><strong>Onay geri çekme:</strong> Yapay zekâ özelliğini kullanmayı bırakmak için API anahtarınızı ayarlardan silmeniz yeterlidir.</li>
+  <li><strong>Talepler:</strong> Verilerinizle ilgili her türlü talep için aşağıdaki adresten bize ulaşabilirsiniz.</li>
+</ul>
+
+<h2>9. Değişiklikler</h2>
+
+<p>
+  Bu politika güncellenirse bu sayfadaki "Son güncelleme" tarihi değişir.
+  Önemli değişiklikler uygulama içinde ayrıca duyurulur.
+</p>
+
+<h2>10. İletişim</h2>
+
+<p>
+  Sorularınız ve talepleriniz için:
+  <a href="mailto:yv.devs@gmail.com">yv.devs@gmail.com</a>
+</p>
+
+</body>
+</html>
